@@ -14,7 +14,7 @@ class TestsController extends Controller
      */
     public function index()
     {
-        echo 'this is index function';
+        return view('layouts.admin');
     }
 
     /**
